@@ -9,7 +9,7 @@ export default function Footer() {
       className="footer-box"
       maxWidth="xls"
       sx={{
-        backgroundColor: { xs: "#dddedb" },
+        backgroundColor: { xs: "#e1dfde" },
         paddingLeft: { xs: 3, sm: 20 },
         paddingRight: { xs: 3, sm: 20 },
         color: "#000000",

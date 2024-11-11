@@ -38,7 +38,7 @@ export default function Header() {
     <AppBar
       position="static"
       sx={{
-        backgroundColor: { xs: "#dedfdc" },
+        backgroundColor: { xs: "#e1dfde" },
       }}
     >
       <Container

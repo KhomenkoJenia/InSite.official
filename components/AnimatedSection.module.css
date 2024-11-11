@@ -14,14 +14,6 @@
   height: 100vh;
 }
 
-.gradientPurple {
-  background: linear-gradient(135deg, #6a0dad, #b19cd9);
-}
-
-.gradientBlue {
-  background: linear-gradient(135deg, #00f, #add8e6);
-}
-
 .imageContainer {
   width: 100%;
   height: 100vh;
