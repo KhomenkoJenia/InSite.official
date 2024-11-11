@@ -1,9 +1,9 @@
-import ParallaxComponent from "@/components/ParallaxComponent";
+import ShopCart from "@/components/ShopItmes/ShopCart";
 
 export default function Work() {
   return (
     <>
-      <ParallaxComponent />
+      <ShopCart />
     </>
   );
 }

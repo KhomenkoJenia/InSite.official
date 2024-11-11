@@ -66,6 +66,8 @@ export function CartContextProvider({ children }) {
       type: "ADD_ITEM",
       item: item,
     });
+
+    console.log(cartContext);
   }
 
   function removeItem(id) {

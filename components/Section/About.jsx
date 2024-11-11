@@ -46,7 +46,8 @@ export default function About() {
           <h5>
             InSite it is a team of professionals in love with what they do and a
             partner for your business that is committed to growth and a
-            successful online presence.
+            successful online presence. Even though so far it consists of only
+            one person - me.
           </h5>
         </div>
       </div>
