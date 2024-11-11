@@ -6,16 +6,16 @@ export default function About() {
     <section id="about" className={styles.aboutContainer}>
       <div className={styles.aboutUs}>
         <Image
-          width={447}
-          height={405}
+          width={470}
+          height={400}
           loading="lazy"
           src="/assets/about1.webp"
           className={styles.imageAboutFirst}
           alt="About Image 1"
         />
         <Image
-          width={285}
-          height={405}
+          width={295}
+          height={390}
           loading="lazy"
           src="/assets/about2.webp"
           className={styles.imageAboutSecond}

@@ -1,10 +1,12 @@
 .aboutContainer {
-  padding: 40px 100px;
+  padding: 30px 100px;
   background-color: #d8d8d8;
 }
 
 .aboutUs {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .imageAboutFirst {
@@ -17,6 +19,7 @@
   border-radius: 24px;
   margin-right: 72px;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+  max-height: 470px;
 }
 .imageAboutFirst:hover {
   transform: scale(1.01);
@@ -38,7 +41,7 @@
 
 .aboutUsBox h5 {
   font-family: Inter;
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 10px;
 }
 .aboutUsBox h2 {
