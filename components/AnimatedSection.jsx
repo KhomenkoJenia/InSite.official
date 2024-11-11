@@ -24,7 +24,7 @@ const AnimatedSection = () => {
     const updateImageSrc = () => {
       // Меняем изображение при ширине экрана < 768px
       if (window.innerWidth < 768) {
-        setImageSrc("/assets/bacgroundM.png"); // Укажите путь к изображению для мобильных устройств
+        setImageSrc("/assets/backgroundMo.png"); // Укажите путь к изображению для мобильных устройств
       } else {
         setImageSrc("/assets/bacgroundMain.webp"); // Изображение для больших экранов
       }
