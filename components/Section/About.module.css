@@ -1,0 +1,77 @@
+.aboutContainer {
+  padding: 40px 100px;
+  background-color: #d8d8d8;
+}
+
+.aboutUs {
+  display: flex;
+}
+
+.imageAboutFirst {
+  border-radius: 24px;
+  margin-right: 25px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.imageAboutSecond {
+  border-radius: 24px;
+  margin-right: 72px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+.imageAboutFirst:hover {
+  transform: scale(1.01);
+  filter: contrast(150%) brightness(0.8);
+  transition: 0.9s ease-in;
+  opacity: 0.5;
+}
+
+.imageAboutSecond:hover {
+  transform: scale(1.01);
+  filter: contrast(150%) brightness(0.8);
+  transition: 0.9s ease-in;
+  opacity: 0.8;
+}
+
+.aboutUsBox {
+  max-width: 590px;
+}
+
+.aboutUsBox h5 {
+  font-family: Inter;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.aboutUsBox h2 {
+  font-family: "LilitaOne";
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 991px) {
+  .aboutContainer {
+    margin-top: 56px;
+    padding: 0px 20px;
+  }
+  .aboutUs {
+    flex-direction: column;
+  }
+  .imageAboutSecond {
+    display: none;
+  }
+  .aboutUsBox h5 {
+    text-align: left;
+  }
+  .aboutContainer h2 {
+    text-align: left;
+  }
+  .aboutUsBox {
+    order: 1;
+    text-align: center;
+  }
+  .imageAboutFirst {
+    order: 2;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-bottom: 40px;
+  }
+}

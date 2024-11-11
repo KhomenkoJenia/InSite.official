@@ -1,0 +1,85 @@
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.parallax {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: url("/assets/background.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%) contrast(120%);
+}
+
+.layer {
+  position: absolute;
+  width: 400%;
+}
+
+.foreground {
+  height: 50%;
+  bottom: 0;
+  background: url("/assets/foreground.png") repeat-x;
+  background-size: 25% 100%;
+  animation: slideshow 30s linear infinite;
+}
+
+.hills {
+  height: 40%;
+  bottom: 15%;
+  background: url("/assets/hills.png") repeat-x;
+  background-size: 25% 100%;
+  animation: slideshow 60s linear infinite;
+}
+
+.rocks1 {
+  height: 35%;
+  bottom: 25%;
+  background: url("/assets/rocks1.png") repeat-x;
+  background-size: 25% 100%;
+  animation: slideshow 120s linear infinite;
+}
+
+.rocks2 {
+  height: 40%;
+  bottom: 15%;
+  background: url("/assets/rocks2.png") repeat-x;
+  background-size: 25% 100%;
+  animation: slideshow 240s linear infinite;
+}
+
+.url {
+  opacity: 0.5;
+  text-decoration: none;
+  color: white;
+}
+
+.url:hover {
+  color: purple;
+}
+
+@keyframes slideshow {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes dayToNight {
+  0% {
+    filter: hue-rotate(0deg) brightness(1);
+  }
+  50% {
+    filter: hue-rotate(180deg) brightness(0.1);
+  }
+  100% {
+    filter: hue-rotate(0deg) brightness(1);
+  }
+}
