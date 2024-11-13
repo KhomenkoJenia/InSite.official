@@ -1,6 +1,6 @@
 import ShopCart from "@/components/ShopItmes/ShopCart";
 
-export default function Work() {
+export default function Shop() {
   return (
     <>
       <ShopCart />

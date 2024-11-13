@@ -116,9 +116,9 @@ export default function Header() {
                 >
                   {[
                     { path: "/", label: "Home" },
-                    { path: "/work", label: "Work" },
-                    { path: "/about", label: "About" },
-                    { path: "/contacts", label: "Contacts" },
+                    { path: "/templates", label: "Templates" },
+                    { path: "/shop", label: "Shop" },
+                    { path: "/order", label: "Order" },
                   ].map((link) => (
                     <Link key={link.path} href={link.path} passHref>
                       <Typography
@@ -150,9 +150,9 @@ export default function Header() {
           >
             {[
               { path: "/", label: "Home" },
-              { path: "/work", label: "Work" },
-              { path: "/about", label: "About" },
-              { path: "/contacts", label: "Contacts" },
+              { path: "/templates", label: "Templates" },
+              { path: "/shop", label: "Shop" },
+              { path: "/order", label: "Order" },
             ].map((link) => (
               <Link
                 key={link.path}
