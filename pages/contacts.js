@@ -1,21 +1,10 @@
-import { Typography } from "@mui/material";
+import ConfettiEffect from "@/components/UI/ConfettiEffect";
+import styles from "@/components/UI/ConfettiEffect.module.css";
 
 export default function Contacts() {
   return (
-    <div>
-      <Typography
-        sx={{
-          fontFamily: "Poppins",
-          fontWeight: "700",
-          fontSize: "50px",
-          padding: "40px",
-          color: "#000000",
-          textAlign: "center",
-          height: "500px",
-        }}
-      >
-        Contacts
-      </Typography>
+    <div className={styles.confettiContainer}>
+      <ConfettiEffect />
     </div>
   );
 }

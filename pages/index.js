@@ -2,6 +2,8 @@ import AnimatedSection from "@/components/AnimatedSection";
 import About from "../components/Section/About";
 import ContactUs from "../components/Section/ContactUs";
 import SliderCustom from "../components/Section/SliderCustom";
+import ConfettiEffect from "@/components/UI/ConfettiEffect";
+import styles from "@/components/UI/ConfettiEffect.module.css";
 
 export default function Home() {
   return (
@@ -12,6 +14,9 @@ export default function Home() {
         <SliderCustom />
       </div>
       <About />
+      <div className={styles.confettiContainer}>
+        <ConfettiEffect />
+      </div>
       <ContactUs />
     </>
   );
