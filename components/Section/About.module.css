@@ -1,6 +1,6 @@
 .aboutContainer {
-  padding: 30px 100px;
-  background-color: #d8d8d8;
+  padding: 50px 100px;
+  background-color: #e1dfde;
 }
 
 .aboutUs {
@@ -40,7 +40,8 @@
 }
 
 .aboutUsBox h5 {
-  font-family: Inter;
+  font-family: "Kanit";
+  font-weight: 400;
   font-size: 16px;
   margin-bottom: 10px;
 }
@@ -52,8 +53,7 @@
 
 @media (max-width: 991px) {
   .aboutContainer {
-    margin-top: 56px;
-    padding: 0px 20px;
+    padding: 50px 20px;
   }
   .aboutUs {
     flex-direction: column;
@@ -62,10 +62,10 @@
     display: none;
   }
   .aboutUsBox h5 {
-    text-align: left;
+    text-align: center;
   }
   .aboutContainer h2 {
-    text-align: left;
+    text-align: center;
   }
   .aboutUsBox {
     order: 1;

@@ -1,0 +1,25 @@
+.workContainer {
+  padding: 50px 180px;
+  margin-top: 20px;
+  background-color: #e1dfde;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.workContainer h2 {
+  font-family: "LilitaOne";
+  font-size: 30px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .workContainer {
+    margin-top: 20px;
+    padding: 50px 5px;
+  }
+  .workContainer h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}

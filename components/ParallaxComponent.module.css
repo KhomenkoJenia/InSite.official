@@ -83,3 +83,37 @@
     filter: hue-rotate(0deg) brightness(1);
   }
 }
+
+@media (max-width: 991px) {
+  .foreground {
+    height: 50%;
+    bottom: 0;
+    background: url("/assets/foreground.png") repeat-x;
+    background-size: 25% 50%;
+    animation: slideshow 30s linear infinite;
+  }
+
+  .hills {
+    height: 40%;
+    bottom: 15%;
+    background: url("/assets/hills.png") repeat-x;
+    background-size: 25% 50%;
+    animation: slideshow 60s linear infinite;
+  }
+
+  .rocks1 {
+    height: 35%;
+    bottom: 25%;
+    background: url("/assets/rocks1.png") repeat-x;
+    background-size: 25% 50%;
+    animation: slideshow 120s linear infinite;
+  }
+
+  .rocks2 {
+    height: 40%;
+    bottom: 15%;
+    background: url("/assets/rocks2.png") repeat-x;
+    background-size: 25% 50%;
+    animation: slideshow 240s linear infinite;
+  }
+}

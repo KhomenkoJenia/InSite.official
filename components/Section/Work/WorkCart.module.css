@@ -1,0 +1,66 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  padding: 50px 0;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+
+  max-width: 440px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: transform 400ms;
+}
+.cartImg {
+  min-height: 248px;
+  border-radius: 10px;
+  filter: grayscale(100%);
+}
+
+.tip {
+  font-size: 1.3em;
+  font-family: "LilitaOne";
+  font-weight: 700;
+  color: rgb(48, 48, 48);
+  margin-bottom: 30px;
+}
+
+.secondText {
+  font-size: 0.7em;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.cards:hover > .card:not(:hover) {
+  filter: blur(10px);
+  transform: scale(0.9);
+}
+.card:hover .cartImg {
+  filter: grayscale(0%);
+  transition: 0.5s;
+}
+
+@media (max-width: 991px) {
+  .workContainer {
+    padding: 20px 5px;
+  }
+  .cards {
+    padding: 10px 2px;
+  }
+  .card {
+    max-width: 300px;
+  }
+  .cartImg {
+    min-height: 169px;
+  }
+}
