@@ -69,7 +69,7 @@ h3 {
   padding: 5px;
   border-radius: 9px;
   -webkit-transform: translate3d(0, 0, 0); /* Активирует аппаратное ускорение */
-  -webkit-backface-visibility: hidden;
+
   transform: translateZ(0); /* Обеспечивает четкость */
   shape-rendering: crispEdges;
   image-rendering: -webkit-optimize-contrast;
