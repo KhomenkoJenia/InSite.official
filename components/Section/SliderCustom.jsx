@@ -27,7 +27,7 @@ export default function SliderCustom() {
   };
 
   return (
-    <Slider {...settings} className="slider-main">
+    <Slider {...settings} className={styles.sliderMain}>
       <div className={styles.boxSlider} key="slide1">
         <Image
           src="/assets/slide1.webp"

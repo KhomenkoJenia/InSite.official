@@ -19,12 +19,15 @@
 
 .boxSlider {
   position: relative;
+  display: flex !important;
+  justify-content: center !important;
+  padding: 50px 20px;
 }
 
 .boxSlider h3 {
   position: absolute;
   top: 20%;
-  left: 5px;
+
   font-size: 16px;
 
   text-transform: uppercase;
@@ -51,5 +54,14 @@
   }
   .boxSlider img {
     opacity: 0.4;
+  }
+  .boxSlider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .sliderMain {
+    max-width: 250px;
   }
 }

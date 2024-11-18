@@ -253,18 +253,8 @@ h3 {
 .slider-box img {
   border-radius: 20px;
 }
-.slider-box h2 {
-  margin: 30px auto;
-  color: #ffffff;
-  font-family: "LilitaOne";
-  font-size: 30px;
-  text-align: center;
-}
 
 @media (max-width: 991px) {
-  .slider-box h2 {
-    font-size: 20px;
-  }
   .slider-box {
     display: flex;
     flex-direction: column;
